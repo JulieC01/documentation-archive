@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Modak&family=Oswald:wght@700&family=Rubik+Moonrocks&family=Twinkle+Star&display=swap');
+* {
+    margin:0;
+    padding:0;
+    }
+
+html {
+    scroll-behavior: smooth;
+    margin: auto;
+    background-image: url("img/jtown.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+body {
+   
+    width: 1128px;
+    margin: 80px auto 48px auto;
+    text-align: center;
+
+}
+
+section {
+    text-align: center;
+}
+
+h1{
+  font-family: 'Coiny', cursive;
+    color: white;
+    line-height: 1.5;
+    font-size: 60pt;
+}
+
+h2{
+  font-family: 'Baskervville', serif; 
+    color: white;
+    line-height: 1.5;
+    font-size: 30pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FEBCFB;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+    
+  }
+
+  .btn-group {
+    text-align: center;
+    cursor: pointer;
+    width: 400px;
+    display: block;
+    margin-left: 400px;
+    margin-top: 90px;
+
+  }
+
+  .button:hover {
+    background-color: #BEA5FE;
+    color: white;
+  }
+
+  .returnbutton {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: #BEA5FE;
+    color:white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border: none;
+padding: 10 10 10 10px;
+  }
+
+  .returnbutton:hover {
+    background-color: #FEBCFB;
+    color: white;
+  }
+
+  .text {
+    background-color: rgb(229, 175, 208);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .description {
+    text-align: left;
+  }
